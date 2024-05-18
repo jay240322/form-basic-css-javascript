@@ -1,0 +1,96 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.main{
+    height:727px;
+    width:auto;
+    border: 1px solid black;
+    background-image: url("background.jpg");
+}
+.form{
+    height:600px;
+    width: 600px;
+    backdrop-filter: blur(20px);
+    margin-left: 480px;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px white;
+}
+form{
+    margin-top:100px;
+    height: 200px;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 25px;
+    color:aliceblue;
+}
+strong{
+    text-shadow: 1px 3px 5px black;
+}
+#name{
+    text-align: center;
+    width:300px;
+    margin-left:10px;
+    background:fixed;
+    border-bottom:2px solid silver;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#city{
+    text-align: center;
+    width:300px;
+    margin-left:10px;
+    background:fixed;
+    border-bottom:2px solid silver;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#email{
+    text-align: center;
+    width:300px;
+    margin-left:10px;
+    background:fixed;
+    border-bottom:2px solid silver;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.gender{
+    margin-left:80px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top:30px;
+    text-shadow: 1px 3px white;
+}
+.button{
+    height: 50px;
+    width:100px;
+    border-radius: 5px;
+    margin-top:60px;
+    margin-left:80px;
+    background: fixed;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px 3px white;
+    color:white;
+    font-size: 20px;
+}
+input{
+    outline:none;
+    height:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="text"]{
+    font-size: 20px;
+    color:aliceblue;
+    text-shadow: 1px 3px 5px black;
+}
+
+   

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title>
+              form
+           </title>
+           <link rel="stylesheet"href="1.css">
+      </head>
+          <body>
+              <div class="main">
+                  <div class="form">
+                     <h3>Fill up detail</h3>
+                    <form name="form1">
+                      <strong>Enter name:</strong><input type="text"id="name"><br><br>
+                      <strong>Enter city name:</strong><input type="text"id="city"><br><br>
+                      <strong>select you'r gender:</strong><br><br>
+                         <input type="radio"name="gender"class="gender"><strong>Male</strong>
+                         <input type="radio"name="gender"class="gender"><strong>Female</strong><br><br>
+                         <strong>Enter email-id:</strong><input type="text"id="email">
+                         <br>
+                         <button class="button"onclick="pop()">submit</button>
+                         <button class="button"onclick="reset()">reset</button>
+                    </form>
+                  </div>
+              </div>
+               <script>
+                 function pop(){
+                    if(document.form1.name.value=="")
+                     {
+                       alert("please enter you'r name:");  
+                     }
+                     if(document.form1.city.value=="")
+                     {
+                        alert("please enter you'r city:");
+                     }
+                     if(document.form1.email.value=="")
+                      {
+                        alert("please enter you;r email-id");
+                      }
+                      if(document.form1.value==value)
+                       {
+                        alert("succe");
+                       }
+                 }
+                 function reset(){
+                    document.myform.value==blank;
+                 }
+               </script>
+          </body>
+</html>
